@@ -1,15 +1,16 @@
 import Head from 'next/head';
-import { Wrapper } from './styles';
+import React from 'react';
+import * as S from './styles';
 
-export const Home = () => {
+export const Login: React.FC = () => {
   return (
-    <Wrapper>
+    <S.LoginContainer>
       <Head>
         <title>EsSolutions Admin</title>
         <meta name="description" content="EsSolutions Admin" />
         <link rel="icon" href="/Logo.svg" />
       </Head>
-      <p>Home</p>
-    </Wrapper>
+      <p>André é foda</p>
+    </S.LoginContainer>
   );
 };

@@ -10,8 +10,8 @@ export const commonColors = {
   white: '#fff',
   green: '#039B00',
   blue: {
-    700: '#2F2E41',
-    500: '#009EDD',
+    0: '#E7F5FF',
+    6: '#228BE6',
   },
   gray: {
     1: '#F8F9FA',

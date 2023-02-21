@@ -10,17 +10,40 @@ export type AppShellProps = {
 
 function AppShelPropvider({ children }: AppShellProps) {
   const [opened, setOpened] = useState(false);
+
+  const links = [
+    {
+      link: 'Dashboard',
+      href: 'dashboard',
+      icon: '/icons/Dashboard.svg',
+    },
+    {
+      link: 'Produtos',
+      href: 'produtos',
+      icon: '/icons/Dashboard.svg',
+    },
+    {
+      link: 'Clientes',
+      href: 'clientes',
+      icon: '/icons/Dashboard.svg',
+    },
+    {
+      link: 'Notas Fiscais',
+      href: 'exemplo',
+      icon: '/icons/Dashboard.svg',
+    },
+  ];
+
   return (
     <AppShell
       navbar={
         <S.NavbarContainer
           width={{ base: 300 }}
-          height={500}
+          height={'100vh'}
           p="xs"
           display={opened ? 'block' : 'none'}
         >
-          {/* Navbar content */}
-          <NavBarLinks />
+          <NavBarLinks links={links} />
         </S.NavbarContainer>
       }
       header={
