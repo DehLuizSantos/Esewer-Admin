@@ -12,6 +12,10 @@ export const GlobalStyle = createGlobalStyle`
 
   }
 
+  body{
+    overflow-y: hidden; 
+  }
+
   a {
     text-decoration: none;
     cursor: pointer;

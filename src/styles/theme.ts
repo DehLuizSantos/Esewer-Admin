@@ -13,11 +13,21 @@ export const commonColors = {
     0: '#E7F5FF',
     6: '#228BE6',
   },
+  background: {
+    0: '#ecf2f5',
+    1: '#e1ebf2',
+    2: '#c8dce9',
+  },
   gray: {
     1: '#F8F9FA',
     2: '#F1F3F5',
     3: '#E9ECEF',
     4: '#DEE2E6',
+    5: '#ADB5BD',
+    6: '#868E96',
+    7: '#495057',
+    8: '#343A40',
+    9: '#212529',
   },
 };
 
@@ -71,6 +81,8 @@ const commonFont = {
   xLarge: '18px',
   xxLarge: '20px',
   xxxLarge: '24px',
+  Title: '28px',
+  TitleLarge: '32px',
 };
 
 const commonTheme = {
